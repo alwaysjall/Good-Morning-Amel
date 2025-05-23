@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Good Morning Amel</title>
+  <meta property="og:description" content="Good Morning Amel">
+<meta property="og:image" content="https://files.catbox.moe/e1owkr.jpg">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      font-family: 'Poppins', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: #fff;
+      text-align: center;
+    }
+    .glitch {
+            font-size: 40px;
+            font-weight: bold;
+            position: relative;
+            display: inline-block;
+            animation: glitch 1s infinite;
+        }
+        @keyframes glitch {
+            0% { text-shadow: 2px 2px pink, -2px -2px lightpink; }
+            25% { text-shadow: -2px -2px pink, 2px 2px lightpink; }
+            50% { text-shadow: 2px -2px pink, -2px 2px lightpink; }
+            75% { text-shadow: -2px 2px pink, 2px -2px lightpink; }
+            100% { text-shadow: 2px 2px pink, -2px -2px lightpink; }
+        }
+    .container {
+      background: rgba(0, 0, 0, 0.25);
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+      backdrop-filter: blur(8px);
+      max-width: 600px;
+      overflow: auto;
+      max-height: 90vh;
+    }
+    h1 {
+      font-size: 2.0em;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-out;
+    }
+    p {
+      font-size: 1.1em;
+      line-height: 1.7em;
+      animation: slideIn 2.5s ease-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>good morning Amel</h1>
+    <p>
+      hari ini adalah lembaran baru. apapun yang terjadi kemarin, entah itu menyenangkan atau mengecewakan, biarkan ia menjadi bagian dari cerita yang telah dilewati.<br><br>
+      kamu masih punya waktu, kesempatan, dan kekuatan untuk terus melangkah ke depan. semesta tidak meminta kamu untuk sempurna, hanya untuk terus mencoba dan tidak menyerah. setiap langkah kecil yang kamu ambil hari ini sudah cukup untuk membuat perbedaan. kamu mungkin tidak melihat hasilnya langsung, tapi percayalah, kamu sedang tumbuh — pelan tapi pasti.<br><br>
+      tetap jadi versi terbaik dirimu, dengan senyum tulus dan hati yang kuat. hari ini, ambil napas dalam, tarik semangat, dan mulai lagi — karena kamu berhak untuk bahagia dan bangga pada dirimu sendiri.  
+    </p>
+    <h1 class="glitch">© Always Jall</h1>
+  </div>
+</body>
+</html>
